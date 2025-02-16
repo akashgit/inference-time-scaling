@@ -16,14 +16,15 @@ A collection of Python implementations for particle filtering and MCMC methods, 
 ## Setup
 
 1. Install dependencies:
+```
 pip install numpy scipy matplotlib pandas
-
+```
 2. Run comparisons:
-
+```
 python compare_simple_filters.py # Compare particle filter variants
 python compare_pf_pg.py # Compare PF vs Particle Gibbs
 python particle_comparison.py # General comparison suite
-
+```
 ## Requirements
 
 - Python 3.6+
